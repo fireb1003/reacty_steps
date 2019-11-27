@@ -21,7 +21,8 @@ const errorLink = onError(({ graphQLErrors, networkError }) => {
 const httpLink = createHttpLink({
   // Graphcms.com Momen's Facebook Login
   // uri: "http://localhost:4000/"
-  uri: "https://api-euwest.graphcms.com/v1/ck1tco1yq29vq01cb5xmsgpds/master"
+  // uri: "https://api-euwest.graphcms.com/v1/ck1tco1yq29vq01cb5xmsgpds/master"
+  uri: "https://accoose.herokuapp.com/"
 });
 
 const client = new ApolloClient({
